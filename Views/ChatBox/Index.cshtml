@@ -1,0 +1,271 @@
+﻿@{
+    Layout = "_Layout";
+
+    var username = ViewBag.username;
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .card {
+        min-width: 340px;
+    }
+
+    .messages-container {
+        height: 320px;
+        max-height: 320px;
+        overflow-y: auto;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    .message {
+        display: flex;
+        margin-bottom: 10px;
+        max-width: 80%;
+        /* Limit message width */
+    }
+
+    .message-content {
+        display: flex;
+        flex-direction: column;
+        /* Stack content vertically */
+    }
+
+    .message p {
+        margin: 0;
+        padding: 8px 12px;
+        border-radius: 18px;
+        word-wrap: break-word;
+        max-width: 100%;
+    }
+
+    .username {
+        font-weight: 200;
+        font-size: 12px;
+        /* Make username bold */
+        color: #333;
+        /* Dark color for username */
+        margin-bottom: 2px;
+        /* Space between username and message */
+    }
+
+    /* Primary message (right side) */
+    .primary-msg {
+        margin-left: auto;
+        /* Push to right side */
+        justify-content: flex-end;
+    }
+
+    .primary-msg p {
+        background-color: #0084ff;
+        /* Facebook blue */
+        color: white;
+    }
+
+    /* Secondary message (left side) */
+    .secondary-msg {
+        margin-right: auto;
+        /* Push to left side */
+        justify-content: flex-start;
+    }
+
+    .secondary-msg p {
+        background-color: #e4e6eb;
+        /* Facebook gray */
+        color: black;
+    }
+
+    /* Message info styling */
+    .message-info {
+        font-size: 12px;
+        /* Smaller font for info */
+        color: #999;
+        /* Gray color for info text */
+        margin-top: 4px;
+        /* Space between message and info */
+    }
+
+    /* Optional: Add hover effect */
+    .message p:hover {
+        opacity: 0.9;
+    }
+
+    /* Optional: Style for consecutive messages from the same sender */
+    .primary-msg+.primary-msg,
+    .secondary-msg+.secondary-msg {
+        margin-top: -5px;
+    }
+
+    /* Optional: Custom scrollbar */
+    .messages-container::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .messages-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .messages-container::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+    .messages-container::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    /* Image in chat */
+    .message img {
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 10px;
+        margin: 5px 0;
+    }
+
+    #imagePreview {
+        position: relative;
+        display: inline-block;
+    }
+
+    #removePreview {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        border-radius: 50%;
+        padding: 0 6px;
+    }
+</style>
+
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="messages-container">
+                    <!-- Messages will be appended here -->
+                </div>
+            </div>
+            <div class="card-footer">
+                <form id="chat-form" enctype="multipart/form-data">
+                    <div class="form-group input-group">
+                        <input type="file" id="imageInput" name="image" accept="image/*" style="display: none;" />
+                        <button type="button" class="btn btn-secondary" id="attachButton">
+                            <i class="fas fa-paperclip"></i>
+                        </button>
+
+                        <input class="form-control" type="text" name="msg" id="msg" placeholder="Message to admins"
+                            autocomplete="off" />
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit" name="btnSend" id="btnSend">Send</button>
+                        </div>
+                    </div>
+                    <div id="imagePreview" class="mt-2" style="display: none;">
+                        <img id="preview" style="max-width: 200px; max-height: 200px;" />
+                        <button type="button" class="btn btn-sm btn-danger" id="removePreview">×</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/ChatHubConnection.js"></script>
+    <script src="~/js/chatBox.js"></script>
+    <script>
+        document.addEventListener('hubReady', () => {
+            const messagesContainer = document.querySelector('.messages-container');
+            const messageInput = document.querySelector('#msg');
+            const chatForm = document.querySelector('#chat-form');
+            const imageInput = document.querySelector('#imageInput');
+            const attachButton = document.querySelector('#attachButton');
+            const imagePreview = document.querySelector('#imagePreview');
+            const preview = document.querySelector('#preview');
+            const removePreview = document.querySelector('#removePreview');
+            const appendMessageToView = (message) => {
+                // Append sended message to view
+                const item = document.createElement('div');
+                item.className = 'message primary-msg';
+                item.innerHTML = `<div class="message-content"><p>${message}</p><span class="message-info">You • ${new Date().toLocaleTimeString()}</span></div>`;
+
+                messagesContainer.appendChild(item);
+            };
+
+            let selectedFile = null;
+            let hub = window.chatHub;
+
+            // Handle attach button click
+            attachButton.addEventListener('click', () => {
+                imageInput.click();
+            });
+
+            // Handle file selection
+            imageInput.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file && file.type.startsWith('image/')) {
+                    selectedFile = file;
+                    preview.src = URL.createObjectURL(file);
+                    imagePreview.style.display = 'block';
+                }
+            });
+
+            // Handle remove preview
+            removePreview.addEventListener('click', () => {
+                selectedFile = null;
+                preview.src = '';
+                imagePreview.style.display = 'none';
+                imageInput.value = '';
+            });
+
+            // Handle form submission
+            chatForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+
+                const message = messageInput.value.trim();
+
+                if (selectedFile) {
+                    // Handle file upload through controller
+                    const formData = new FormData();
+                    formData.append('image', selectedFile);
+
+                    try {
+                        const response = await fetch('@Url.Action("UploadImage", "ChatBox")', {
+                            method: 'POST',
+                            body: formData
+                        });
+
+                        if (response.ok) {
+                            const { imageUrl } = await response.json();
+                            // Send message with image URL through SignalR
+                            hub.sendAsync(`${message} [Image: ${imageUrl}]`);
+                            appendMessageToView(message);
+                        }
+                    } catch (error) {
+                        console.error('Error uploading image:', error);
+                    }
+                } else if (message && message.length > 0) {
+                    // Send text-only message through SignalR
+                    hub.sendAsync(message);
+                    appendMessageToView(message);
+                }
+
+
+
+
+                // Clear the form
+                messageInput.value = '';
+                selectedFile = null;
+                preview.src = '';
+                imagePreview.style.display = 'none';
+                imageInput.value = '';
+
+                // Scroll to the bottom
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            });
+        });
+    </script>
+}
