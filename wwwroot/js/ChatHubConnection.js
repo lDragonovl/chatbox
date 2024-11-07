@@ -1,14 +1,13 @@
 class ChatHubConnection {
-
     constructor(url, username, chatroom) {
         this.url = url;
         this.username = username;
         this.chatroom = chatroom;
         this.connected = false;
-        this.onReceiveMessageCallback = () => { };
-        this.onUserJoinedCallback = () => { };
-        this.onUserLeftCallback = () => { };
-        this.onUserDisconnectedCallback = () => { };
+        this.onReceiveMessageCallback = () => {};
+        this.onUserJoinedCallback = () => {};
+        this.onUserLeftCallback = () => {};
+        this.onUserDisconnectedCallback = () => {};
     }
 
     async init() {
@@ -24,6 +23,29 @@ class ChatHubConnection {
             this.connection.on("ReceiveMessage", (username, message) => {
                 // Handle received message
                 this.onReceiveMessageCallback(username, message);
+            });
+
+            this.connection.on("ReceiveImage", (username, url) => {
+                // Handle received image
+                this.onReceiveImageCallback(username, url);
+            });
+
+            this.connection.on("ReceiveChatLog", (chatLog) => {
+                // Handle received chat log
+                console.log(chatLog);
+                chatLog.forEach((chat) => {
+                    if (chat.contentType === "text") {
+                        this.onReceiveMessageCallback(
+                            chat.username,
+                            chat.content
+                        );
+                    } else if (chat.contentType === "image") {
+                        this.onReceiveImageCallback(
+                            chat.username,
+                            chat.content
+                        );
+                    }
+                });
             });
 
             this.connection.on("UserJoined", (username) => {
@@ -65,14 +87,30 @@ class ChatHubConnection {
         }
     }
 
-    onConnected(callback) {
-        if (!this.connected)
+    async sendImageAsync(url) {
+        if (!this.connection) {
+            console.log("Connection null. You must call init().");
             return;
+        }
+        try {
+            await this.connection.invoke("SendImage", url);
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    onConnected(callback) {
+        if (!this.connected) return;
         callback(this);
     }
 
     onReceiveMessage(callback) {
         this.onReceiveMessageCallback = callback;
+        return this;
+    }
+
+    onReceiveImage(callback) {
+        this.onReceiveImageCallback = callback;
         return this;
     }
 

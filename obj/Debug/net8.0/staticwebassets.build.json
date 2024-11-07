@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xELIfIc/nExLOEiXWMM5BRW2ccItX4cCFqV3ijtSt4Q=",
+  "Hash": "KIISZf6TTM5m93o0IE7YXSFAP0fMyfCljLRYWjN0FeY=",
   "Source": "ChatWebApplication",
   "BasePath": "_content/ChatWebApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ChatWebApplication\\wwwroot",
       "Source": "ChatWebApplication",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatWebApplication.styles.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatWebApplication.styles.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "ChatWebApplication.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatWebApplication.styles.css"
+      "OriginalItemSpec": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatWebApplication.styles.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatWebApplication.bundle.scp.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatWebApplication.bundle.scp.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "ChatWebApplication.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,32 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatWebApplication.bundle.scp.css"
+      "OriginalItemSpec": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatWebApplication.bundle.scp.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\css\\site.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\css\\all.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "css/all.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\all.min.css"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\css\\site.css",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\favicon.ico",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\favicon.ico",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\chatBox.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\js\\chatBox.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "js/chatBox.js",
       "AssetKind": "All",
@@ -112,29 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chatBox.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\chatHub.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\js\\ChatHubConnection.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
-      "BasePath": "_content/ChatWebApplication",
-      "RelativePath": "js/chatHub.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\chatHub.js"
-    },
-    {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\ChatHubConnection.js",
-      "SourceId": "ChatWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "js/ChatHubConnection.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ChatHubConnection.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\site.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\js\\site.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Identity": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
       "SourceId": "ChatWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
       "BasePath": "_content/ChatWebApplication",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min.js",
       "AssetKind": "All",
@@ -1288,6 +1288,253 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\0791b921-f511-44cc-b02f-a56fdaef0c51.png",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/0791b921-f511-44cc-b02f-a56fdaef0c51.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0791b921-f511-44cc-b02f-a56fdaef0c51.png"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\228e838c-a5f4-47aa-8989-83ed1a98c347.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/228e838c-a5f4-47aa-8989-83ed1a98c347.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\228e838c-a5f4-47aa-8989-83ed1a98c347.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\727997b1-1663-4419-ae54-cb30fcb0067b.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/727997b1-1663-4419-ae54-cb30fcb0067b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\727997b1-1663-4419-ae54-cb30fcb0067b.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\739984df-248f-4384-9520-1bab80f2e996.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/739984df-248f-4384-9520-1bab80f2e996.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\739984df-248f-4384-9520-1bab80f2e996.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\7413f8dd-2b4b-4f0d-8a73-90529a6d51f8.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/7413f8dd-2b4b-4f0d-8a73-90529a6d51f8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7413f8dd-2b4b-4f0d-8a73-90529a6d51f8.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\928a44ef-a36c-4163-9799-a452ea7bac69.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/928a44ef-a36c-4163-9799-a452ea7bac69.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\928a44ef-a36c-4163-9799-a452ea7bac69.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\97ea339c-255d-49b8-9488-17cf5d2bb4d6.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/97ea339c-255d-49b8-9488-17cf5d2bb4d6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\97ea339c-255d-49b8-9488-17cf5d2bb4d6.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\b446e8b7-ff33-4e48-a35e-4731f20fe32f.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/b446e8b7-ff33-4e48-a35e-4731f20fe32f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\b446e8b7-ff33-4e48-a35e-4731f20fe32f.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\be1d5108-34dc-4a6d-8544-19e1f16f1f7e.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/be1d5108-34dc-4a6d-8544-19e1f16f1f7e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\be1d5108-34dc-4a6d-8544-19e1f16f1f7e.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\c697f5d9-cca1-4a95-a811-a8a11badc62b.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/c697f5d9-cca1-4a95-a811-a8a11badc62b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c697f5d9-cca1-4a95-a811-a8a11badc62b.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\de40226e-bea0-4d92-be88-f71c3233be07.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/de40226e-bea0-4d92-be88-f71c3233be07.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\de40226e-bea0-4d92-be88-f71c3233be07.jpg"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\deb177d3-4501-47a1-9b9d-5c83bc2b3603.png",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/deb177d3-4501-47a1-9b9d-5c83bc2b3603.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\deb177d3-4501-47a1-9b9d-5c83bc2b3603.png"
+    },
+    {
+      "Identity": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\eaa0bc84-53a0-4e79-a1ca-50728464e5ca.jpg",
+      "SourceId": "ChatWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\",
+      "BasePath": "_content/ChatWebApplication",
+      "RelativePath": "uploads/eaa0bc84-53a0-4e79-a1ca-50728464e5ca.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\eaa0bc84-53a0-4e79-a1ca-50728464e5ca.jpg"
     }
   ]
 }

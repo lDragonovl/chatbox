@@ -1,11 +1,13 @@
 ﻿@{
     Layout = "_Layout";
 
-    var username = ViewBag.username;
+    var Username = "Minh";
+    var Room = "Default";
 }
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+@* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+crossorigin="anonymous" referrerpolicy="no-referrer" /> *@
+<link rel="stylesheet" href="~/css/fontawesome/all.min.css">
 <style>
     .card {
         min-width: 340px;
@@ -61,6 +63,8 @@
         background-color: #0084ff;
         /* Facebook blue */
         color: white;
+        width: fit-content;
+        align-self: end;
     }
 
     /* Secondary message (left side) */
@@ -146,7 +150,9 @@
                 </div>
             </div>
             <div class="card-footer">
-                <form id="chat-form" enctype="multipart/form-data">
+                <form id="chat-form" enctype="multipart/form-data" method="post">
+                    <input type="hidden" name="username" value="@Username" id="username" />
+                    <input type="hidden" name="room" value="@Room" id="room" />
                     <div class="form-group input-group">
                         <input type="file" id="imageInput" name="image" accept="image/*" style="display: none;" />
                         <button type="button" class="btn btn-secondary" id="attachButton">
@@ -169,15 +175,55 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">@Room</h5>
+                <button type="button" class="close" id="btnCloseModal" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Image Preview" style="width: 100%;" />
+            </div>
+        </div>
+    </div>
+</div>
+
 @section Scripts {
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
-        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/js/fontawesome/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
     <script src="~/js/ChatHubConnection.js"></script>
     <script src="~/js/chatBox.js"></script>
     <script>
         document.addEventListener('hubReady', () => {
+
+            document.getElementById('image').addEventListener('click', function () {
+                // Get the src of the preview image
+                var imageSrc = this.src;
+
+                // Set the src of the modal image
+                document.getElementById('modalImage').src = imageSrc;
+
+                // Show the modal
+                $('#imageModal').modal('show');
+            });
+
+            document.getElementById('btnCloseModal').addEventListener('click', function () {
+                // Hide the modal
+                $('#imageModal').modal('hide');
+            });
+
+            document.getElementById('removePreview').addEventListener('click', function () {
+                // Hide the image preview
+                document.getElementById('imagePreview').style.display = 'none';
+                document.getElementById('preview').src = '';
+            });
+
             const messagesContainer = document.querySelector('.messages-container');
             const messageInput = document.querySelector('#msg');
             const chatForm = document.querySelector('#chat-form');
@@ -186,6 +232,11 @@
             const imagePreview = document.querySelector('#imagePreview');
             const preview = document.querySelector('#preview');
             const removePreview = document.querySelector('#removePreview');
+
+            const scrollToBottom = () => {
+                // Scroll to the bottom
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            };
             const appendMessageToView = (message) => {
                 // Append sended message to view
                 const item = document.createElement('div');
@@ -193,6 +244,16 @@
                 item.innerHTML = `<div class="message-content"><p>${message}</p><span class="message-info">You • ${new Date().toLocaleTimeString()}</span></div>`;
 
                 messagesContainer.appendChild(item);
+                scrollToBottom();
+            };
+            const appendImageToView = (imageUrl) => {
+                // Append image to view
+                const item = document.createElement('div');
+                item.className = 'message primary-msg';
+                item.innerHTML = `<div class="message-content"><img id="image" src="${imageUrl}" /><span class="message-info">You • ${new Date().toLocaleTimeString()}</span></div>`;
+
+                messagesContainer.appendChild(item);
+                scrollToBottom();
             };
 
             let selectedFile = null;
@@ -241,8 +302,12 @@
                         if (response.ok) {
                             const { imageUrl } = await response.json();
                             // Send message with image URL through SignalR
-                            hub.sendAsync(`${message} [Image: ${imageUrl}]`);
-                            appendMessageToView(message);
+                            hub.sendImageAsync(imageUrl);
+                            appendImageToView(imageUrl);
+                            if (message && message.length > 0) {
+                                hub.sendAsync(message);
+                                appendMessageToView(message);
+                            }
                         }
                     } catch (error) {
                         console.error('Error uploading image:', error);
@@ -252,9 +317,6 @@
                     hub.sendAsync(message);
                     appendMessageToView(message);
                 }
-
-
-
 
                 // Clear the form
                 messageInput.value = '';

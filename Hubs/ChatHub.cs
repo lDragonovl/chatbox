@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Concurrent;
 using ChatWebApplication.Models;
-using DataAccess.BusinessObjects;
 using Microsoft.AspNetCore.SignalR;
 
 namespace ChatWebApplication.Hubs;
@@ -9,13 +8,16 @@ namespace ChatWebApplication.Hubs;
 public class ChatHub : Hub<IChatClient>
 {
     private static readonly ConcurrentDictionary<string, UserConnection> UserConnections = new();
+    private static readonly ConcurrentDictionary<string, MessageContent[]> ChatLogs = new();
 
     public async Task JoinRoom(UserConnection uc)
     {
         var connectionId = Context.ConnectionId;
         UserConnections[connectionId] = uc;
+        ChatLogs.TryAdd(uc.Room, Array.Empty<MessageContent>());
         await Groups.AddToGroupAsync(connectionId, uc.Room);
         await Clients.Group(uc.Room).UserJoined(uc.Username);
+        await Clients.Caller.ReceiveChatLog(ChatLogs[uc.Room]);
     }
 
     public async Task SendMessage(string msg)
@@ -23,7 +25,18 @@ public class ChatHub : Hub<IChatClient>
         var connectionId = Context.ConnectionId;
         if (UserConnections.TryGetValue(connectionId, out var conn))
         {
+            ChatLogs[conn.Room] = ChatLogs[conn.Room].Append(new MessageContent(conn.Username, "text", msg)).ToArray();
             await Clients.GroupExcept(conn.Room, Context.ConnectionId).ReceiveMessage(conn.Username, msg);
+        }
+    }
+
+    public async Task SendImage(string url)
+    {
+        var connectionId = Context.ConnectionId;
+        if (UserConnections.TryGetValue(connectionId, out var conn))
+        {
+            ChatLogs[conn.Room] = ChatLogs[conn.Room].Append(new MessageContent(conn.Username, "image", url)).ToArray();
+            await Clients.GroupExcept(conn.Room, Context.ConnectionId).ReceiveImage(conn.Username, url);
         }
     }
 

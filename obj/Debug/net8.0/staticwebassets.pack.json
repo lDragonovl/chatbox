@@ -1,268 +1,320 @@
 {
   "Files": [
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatWebApplication.bundle.scp.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatWebApplication.bundle.scp.css",
       "PackagePath": "staticwebassets\\ChatWebApplication.bundle.scp.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\css\\site.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\favicon.ico",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\ChatHubConnection.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\js\\ChatHubConnection.js",
       "PackagePath": "staticwebassets\\js\\ChatHubConnection.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\chatBox.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\js\\chatBox.js",
       "PackagePath": "staticwebassets\\js\\chatBox.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\chatHub.js",
-      "PackagePath": "staticwebassets\\js\\chatHub.js"
-    },
-    {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\js\\site.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Id": "D:\\FA24\\EXE\\ChatBoxSignalR\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
       "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\0791b921-f511-44cc-b02f-a56fdaef0c51.png",
+      "PackagePath": "staticwebassets\\uploads\\0791b921-f511-44cc-b02f-a56fdaef0c51.png"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\228e838c-a5f4-47aa-8989-83ed1a98c347.jpg",
+      "PackagePath": "staticwebassets\\uploads\\228e838c-a5f4-47aa-8989-83ed1a98c347.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\727997b1-1663-4419-ae54-cb30fcb0067b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\727997b1-1663-4419-ae54-cb30fcb0067b.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\739984df-248f-4384-9520-1bab80f2e996.jpg",
+      "PackagePath": "staticwebassets\\uploads\\739984df-248f-4384-9520-1bab80f2e996.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\7413f8dd-2b4b-4f0d-8a73-90529a6d51f8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7413f8dd-2b4b-4f0d-8a73-90529a6d51f8.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\928a44ef-a36c-4163-9799-a452ea7bac69.jpg",
+      "PackagePath": "staticwebassets\\uploads\\928a44ef-a36c-4163-9799-a452ea7bac69.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\97ea339c-255d-49b8-9488-17cf5d2bb4d6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\97ea339c-255d-49b8-9488-17cf5d2bb4d6.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\b446e8b7-ff33-4e48-a35e-4731f20fe32f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b446e8b7-ff33-4e48-a35e-4731f20fe32f.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\be1d5108-34dc-4a6d-8544-19e1f16f1f7e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\be1d5108-34dc-4a6d-8544-19e1f16f1f7e.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\c697f5d9-cca1-4a95-a811-a8a11badc62b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c697f5d9-cca1-4a95-a811-a8a11badc62b.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\de40226e-bea0-4d92-be88-f71c3233be07.jpg",
+      "PackagePath": "staticwebassets\\uploads\\de40226e-bea0-4d92-be88-f71c3233be07.jpg"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\deb177d3-4501-47a1-9b9d-5c83bc2b3603.png",
+      "PackagePath": "staticwebassets\\uploads\\deb177d3-4501-47a1-9b9d-5c83bc2b3603.png"
+    },
+    {
+      "Id": "D:\\GITHUB\\ChatBox\\ChatWebApplication\\wwwroot\\uploads\\eaa0bc84-53a0-4e79-a1ca-50728464e5ca.jpg",
+      "PackagePath": "staticwebassets\\uploads\\eaa0bc84-53a0-4e79-a1ca-50728464e5ca.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
